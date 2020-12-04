@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Home.jsx';
 import Projects from './Projects.jsx';
 import Contact from './Contact.jsx';
-import About from './About.jsx';
+import AboutPage from './AboutPage.jsx';
 import Navigation from './Navigation.jsx';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/Projects' component={Projects} />
           <Route path='/Contact' component={Contact} />
-          <Route path='/About' component={About} />
+          <Route path='/About' component={AboutPage} />
           <Route path='/' component={() => <div>err. 404!</div>} />
         </Switch>
       </Router>

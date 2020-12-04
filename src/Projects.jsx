@@ -1,11 +1,22 @@
 import React from 'react';
+import {Grid, Row, Col} from 'rsuite';
 
 
-function Projects() {
+
+function ProjectsList() {
+
 
     return (
-        <h1>section projects</h1>
+        <Grid fluid>
+            <Row className="show-grid">
+
+                <Col xs={8}>Pouet</Col>
+            </Row>
+        </Grid>
+
+
     )
 }
 
-export default Projects;
+
+export default ProjectsList;
